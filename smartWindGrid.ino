@@ -191,10 +191,6 @@ Serial.println(distance);
   
   Serial.println(""); 
 
-float vol = random(2, 4);
-float curr = random(50, 60);
-float pwr = random(140, 192);
-
 lcd.clear();
   lcd.setCursor(0, 0);         // move cursor to   (0, 0)
   lcd.print("W=");        // print message at (0, 0)
